@@ -1,0 +1,90 @@
+body{
+  background-color: slategrey;
+  color: white; 
+  margin: 2em;
+}
+
+h1{
+  font-family: verdana, arial, sans-serif;
+}
+
+button{
+  border-radius: 10px;
+  padding: 10px;
+}
+
+.hidden{
+  display: none;
+}
+
+/** buttons **/
+
+#button-area > button {
+  width: 200px;
+  height: 200px;
+  margin: 2px;
+}
+
+#button-area > button > img{
+  visibility: hidden;
+  width: 50px;
+  height: 50px;
+  margin: 0px;
+  padding: 0px;
+}
+
+#button-area > button:active > img{
+  visibility: visible;
+  width: 50px;
+  height: 50px;
+  margin: 0px;
+  padding: 0px;
+}
+
+#button1{
+  background-color: pink;
+}
+
+#button1:active, #button1.lit{
+  background-color: red;
+}
+
+#button2{
+  background-color: gold;
+}
+
+#button2:active, #button2.lit{
+  background-color: orange;
+}
+
+#button3{
+  background-color: lightyellow;
+}
+
+#button3:active, #button3.lit{
+  background-color: yellow;
+}
+
+#button4{
+  background-color: lightgreen;
+}
+
+#button4:active, #button4.lit{
+  background-color: green;
+}
+
+#button5{
+  background-color: lightblue;
+}
+
+#button5:active, #button5.lit{
+  background-color: blue;
+}
+
+#button6{
+  background-color: thistle;
+}
+
+#button6:active, #button6.lit{
+  background-color: mediumpurple;
+}
