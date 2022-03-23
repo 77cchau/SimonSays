@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang = "eng">
+  <head>
+    <meta charset = "utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="icon" href="https://glitch,com/favicon.ico"/>
+    
+    <title> Hello World </title>
+    
+    <link rel="stylesheet" href="/style.css"/>
+    
+    <script src="/script.js" defer></script>
+  </head>
+  <body>
+    <h1> Simon Says </h1>
+    <p> Welcome! This is a Light and Sound Memory Game! </p>
+    <button id = "start-button" onclick = "startGame()"> Start </button>
+    <button id = "stop-button" class = "hidden" onclick = "stopGame()"> Stop </button>
+    <p id = "timer" class = "hidden">Time Left: 5</p>
+    <div id = "button-area">
+      <button id = "button1" onclick = "guess(1)" onmousedown="startTone(1)" onmouseup="stopTone()">
+        <img id = "img1"  src = "https://cdn.glitch.global/5f4cfa02-e872-40eb-a373-9a4c20389a83/apple.png?v=1648019331015">
+      </button>
+      <button id = "button2" onclick = "guess(2)" onmousedown="startTone(2)" onmouseup="stopTone()">
+        <img id = "img2" src = "https://cdn.glitch.global/5f4cfa02-e872-40eb-a373-9a4c20389a83/orange.png?v=1648023459726">
+      </button>
+      <button id = "button3" onclick = "guess(3)" onmousedown="startTone(3)" onmouseup="stopTone()">
+        <img id = "img3" src = "https://cdn.glitch.global/5f4cfa02-e872-40eb-a373-9a4c20389a83/banana.png?v=1648024077584">
+      </button>
+      <button id = "button4" onclick = "guess(4)" onmousedown="startTone(4)" onmouseup="stopTone()">
+        <img id = "img4"  src = "https://cdn.glitch.global/5f4cfa02-e872-40eb-a373-9a4c20389a83/lime.png?v=1648024484419">
+      </button>
+      <button id = "button5" onclick = "guess(5)" onmousedown="startTone(5)" onmouseup="stopTone()">
+        <img id = "img5"  src = "https://cdn.glitch.global/5f4cfa02-e872-40eb-a373-9a4c20389a83/blueberry.png?v=1648025665411">
+      </button>
+      <button id = "button6" onclick = "guess(6)" onmousedown="startTone(6)" onmouseup="stopTone()">
+        <img id = "img6"  src = "https://cdn.glitch.global/5f4cfa02-e872-40eb-a373-9a4c20389a83/grape.png?v=1648026065514">
+      </button>
+
+    </div>
+    
+  </body>
+  
+</html>
