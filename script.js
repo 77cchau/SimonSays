@@ -14,12 +14,12 @@ var timeout;
 const nextClueWaitTime = 1000;
 const cluePauseTime = 333;
 const freqMap = {
-  1: 261.6,
-  2: 329.6,
-  3: 392,
-  4: 466.2,
-  5: 500,
-  6: 550
+  1: 250,
+  2: 300,
+  3: 350,
+  4: 400,
+  5: 450,
+  6: 500
 }
 
 // Setting Up

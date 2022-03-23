@@ -1,5 +1,5 @@
 body{
-  background-color: slategrey;
+  background-color: grey;
   color: white; 
   margin: 2em;
 }
@@ -8,9 +8,15 @@ h1{
   font-family: verdana, arial, sans-serif;
 }
 
+p{
+  font-family: "Courier New", sans-serif;
+}
+
 button{
-  border-radius: 10px;
+  border-radius: 15px;
+  font-family: "Courier New", sans-serif;
   padding: 10px;
+  margin: 10px 0 10px 0;
 }
 
 .hidden{
@@ -46,7 +52,7 @@ button{
 }
 
 #button1:active, #button1.lit{
-  background-color: red;
+  background-color: salmon;
 }
 
 #button2{
@@ -70,7 +76,7 @@ button{
 }
 
 #button4:active, #button4.lit{
-  background-color: green;
+  background-color: mediumseagreen;
 }
 
 #button5{
@@ -78,7 +84,7 @@ button{
 }
 
 #button5:active, #button5.lit{
-  background-color: blue;
+  background-color: steelblue;
 }
 
 #button6{
