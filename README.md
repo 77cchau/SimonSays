@@ -4,7 +4,7 @@
 
 Submitted by: **Chloe Chau**
 
-Time spent: **20 - 24* hours spent in total
+Time spent: **17** hours spent in total
 
 Link to project: (https://glitch.com/edit/#!/fluorescent-tide-smoke)
 
@@ -39,25 +39,32 @@ The following **additional** features are implemented:
 ## Video Walkthrough (GIF)
 
 If you recorded multiple GIFs for all the implemented features, you can add them here:
-![](gif1-link-here)
-![](gif2-link-here)
-![](gif3-link-here)
-![](gif4-link-here)
+![] Winning Game: <img src = "http://g.recordit.co/COCLGFDMNH.gif"></img>
+
+![] Losing Game: http://g.recordit.co/7afKe0hJPa.gif
+
+![] Start/Stop Button: http://g.recordit.co/dnHv1LPk86.gif
+
+![] (gif4-link-here)
 
 ## Reflection Questions
 1. If you used any outside resources to help complete your submission (websites, books, people, etc) list them here. 
+
 [I used https://www.w3schools.com to learn more about different functions (setInterval, clearInterval, etc.), 
  HTML layout, and CSS keywords. I also used https://www.pixilart.com to create the pixel art that goes 
  along with each button.]
 
 2. What was a challenge you encountered in creating this submission (be specific)? How did you overcome it? (recommended 200 - 400 words) 
+
 [I had difficulty formatting the images on the buttons when they were clicked by the user. ]
 
 3. What questions about web development do you have after completing your submission? (recommended 100 - 300 words) 
+
 [After completing this submission, I want to learn how to be able to store information. It would have
  been great to be able to record high scores (for an infinite game mode) across multiple visits to the site.]
 
 4. If you had a few more hours to work on this project, what would you spend them doing (for example: refactoring certain functions, adding additional features, etc). Be specific. (recommended 100 - 300 words) 
+
 [I would spend the time allowing the player to have more freedom in choosing how to play the game. For example, I would want
  to implement a feature where the player can decide how many buttons they want to play with, whether or not they want a timer, etc. 
  I would also want to add a game mode where the player can continue to play forever until they mess up. To do this, I would need
