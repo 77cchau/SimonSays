@@ -39,11 +39,15 @@ The following **additional** features are implemented:
 ## Video Walkthrough (GIF)
 
 If you recorded multiple GIFs for all the implemented features, you can add them here:
-![] Winning Game: <img src = "http://g.recordit.co/COCLGFDMNH.gif"></img>
 
-![] Losing Game: http://g.recordit.co/7afKe0hJPa.gif
+![] Winning Game: 
+<img src = "http://g.recordit.co/COCLGFDMNH.gif"></img>
 
-![] Start/Stop Button: http://g.recordit.co/dnHv1LPk86.gif
+![] Losing Game: 
+<img src = "http://g.recordit.co/7afKe0hJPa.gif"></img>
+
+![] Start/Stop Button: 
+<img src = "http://g.recordit.co/dnHv1LPk86.gif"></img>
 
 ![] (gif4-link-here)
 
