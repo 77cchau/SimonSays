@@ -4,7 +4,7 @@
 
 Submitted by: **Chloe Chau**
 
-Time spent: **17** hours spent in total
+Time spent: **15** hours spent in total
 
 Link to project: (https://glitch.com/edit/#!/fluorescent-tide-smoke)
 
@@ -49,31 +49,39 @@ If you recorded multiple GIFs for all the implemented features, you can add them
 ![] Start/Stop Button: 
 <img src = "http://g.recordit.co/dnHv1LPk86.gif"></img>
 
-![] (gif4-link-here)
-
 ## Reflection Questions
 1. If you used any outside resources to help complete your submission (websites, books, people, etc) list them here. 
 
-[I used https://www.w3schools.com to learn more about different functions (setInterval, clearInterval, etc.), 
- HTML layout, and CSS keywords. I also used https://www.pixilart.com to create the pixel art that goes 
- along with each button.]
+I used https://www.w3schools.com to learn more about different functions (setInterval, clearInterval, etc.), 
+HTML layout, and CSS keywords. I also used https://www.pixilart.com to create the pixel art that goes 
+along with each button.
 
 2. What was a challenge you encountered in creating this submission (be specific)? How did you overcome it? (recommended 200 - 400 words) 
 
-[I had difficulty formatting the images on the buttons when they were clicked by the user. ]
+I had difficulty formatting the images on the buttons when they were clicked by the user. At first, when they were clicked,
+it would cause the other buttons to move out of place.I had tried to change the margins and padding to 0px, but that didn't
+work. In the end, I looked up different ways to "hide" elements on a page and used to the visibility keyword in place of 
+the display keyword. After this, the button images showed up without creating issues for other buttons. Another challenge I 
+encountered with creating this submission was with implementing the timer feature. While working with the timer, I had problems 
+with starting and stopping it in the right places. At first, I would start the timer after a certain amount of time had passed (setTimeout)
+and would stop it before it started. This resulted in it continuing to count down when it wasn't supposed to. To fix this, I 
+experimented and in the end, chose to make a variable for the timeout and then clear it along with the timer.
 
 3. What questions about web development do you have after completing your submission? (recommended 100 - 300 words) 
 
-[After completing this submission, I want to learn how to be able to store information. It would have
- been great to be able to record high scores (for an infinite game mode) across multiple visits to the site.]
+After completing this submission, I want to learn how to be able to store information. It would have
+been great to be able to record high scores (for an infinite game mode) across multiple visits to the site.
+I also want to learn more about how to create different elements of a website more efficiently. Even though
+creating more buttons by copying and pasting the HTML and CSS was not difficult, it would tedious and messy to do 
+that for a larger amount of buttons. 
 
 4. If you had a few more hours to work on this project, what would you spend them doing (for example: refactoring certain functions, adding additional features, etc). Be specific. (recommended 100 - 300 words) 
 
-[I would spend the time allowing the player to have more freedom in choosing how to play the game. For example, I would want
- to implement a feature where the player can decide how many buttons they want to play with, whether or not they want a timer, etc. 
- I would also want to add a game mode where the player can continue to play forever until they mess up. To do this, I would need
- to refactor the createPattern function to continue adding more beats as the game goes on rather than create a set amount at the start.
- Going off of the infinite mode, I would want to be able to keep track of the highest score. ]
+I would spend the time allowing the player to have more freedom in choosing how to play the game. For example, I would want
+to implement a feature where the player can decide how many buttons they want to play with, whether or not they want a timer, etc. 
+I would also want to add a game mode where the player can continue to play forever until they mess up. To do this, I would need
+to refactor the createPattern function to continue adding more beats as the game goes on rather than create a set amount at the start.
+Going off of the infinite mode, I would want to be able to keep track of the highest score. 
 
 
 
